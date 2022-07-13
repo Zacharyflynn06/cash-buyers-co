@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        one: "#F0EBE3",
-        two: "#E4DCCF",
-        three: "#7D9D9C",
-        four: "#576F72",
+        one: "#D4ECDD",
+        two: "#345B63",
+        three: "#152D35",
+        four: "#112031",
       },
       fontFamily: { oswald: ["Oswald", "sans-sarif"] },
     },
