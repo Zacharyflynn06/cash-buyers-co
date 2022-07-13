@@ -27,7 +27,7 @@
 
 <div class="relative justify-center items-center ">
   <img
-    src="src/public/images/house_2.jpeg"
+    src="/images/house_2.jpeg"
     alt=""
     class="h-screen object-cover md:w-screen"
   />
@@ -76,7 +76,7 @@
 
 <div class="h-screen relative justify-center items-center ">
   <img
-    src="src/public/images/house.jpg"
+    src="/images/house.jpg"
     alt=""
     class="h-screen object-cover md:w-screen"
   />
