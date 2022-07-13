@@ -3,7 +3,9 @@
   import Phone from "../components/icons/Phone.svelte";
 </script>
 
-<div class="bg-black flex justify-end text-white space-x-3 text-xs h-8 pr-3">
+<header
+  class="bg-four flex justify-end text-one space-x-3 text-xs h-8 pr-3 font-oswald text-md"
+>
   <a href="tel:970-389-7126" class="flex items-center hover:opacity-70">
     <div class="px-2">
       <Phone className="h-3 w-3" />
@@ -21,7 +23,7 @@
     </div>
     <span class="hidden sm:block">tannerb@cashbuyersco.com</span>
   </a>
-</div>
+</header>
 
 <div class="relative justify-center items-center ">
   <img
@@ -31,13 +33,13 @@
   />
 
   <div
-    class="absolute top-0 left-0 text-center bg-black bg-opacity-50 h-screen w-screen"
+    class="absolute top-0 left-0 text-center bg-black bg-opacity-25 h-screen w-screen"
   />
 
   <div
-    class="absolute text-one top-[15%] md:top-1/4 px-10 font-oswald space-y-5 items-center"
+    class="absolute text-one top-[15%] md:top-1/3 mx-5 md:mx-10 font-oswald space-y-5 items-center"
   >
-    <h1 class="text-8xl font-extrabold ">Cash Buyers Colorado</h1>
+    <h1 class="text-8xl font-extrabold ">Cash Buyers CO</h1>
     <p>
       Serving Denver Metro Area, Arvada, Highlands Ranch, Littleton, Thornton,
       Lakewood, and more
@@ -45,8 +47,8 @@
   </div>
 </div>
 
-<div class="flex h-screen items-center justify-center bg-four">
-  <div class="space-y-5 mx-5 md:mx-20">
+<div class="flex py-20 items-center justify-center bg-four">
+  <div class="space-y-5 mx-5 md:mx-10">
     <h1 class="font-oswald font-bold text-2xl text-one">Our Mission</h1>
     <p class="text-one font-oswald text-lg ">
       At Cash Buyers Co, we strive to get our sellers the fastest and highest
@@ -72,4 +74,32 @@
   </div>
 </div>
 
-<img src="src/public/images/house.jpg" alt="" class="object-contain" />
+<div class="h-screen relative justify-center items-center ">
+  <img
+    src="src/public/images/house.jpg"
+    alt=""
+    class="h-screen object-cover md:w-screen"
+  />
+  <div
+    class="absolute top-0 left-0 text-center bg-black bg-opacity-50 h-screen w-screen"
+  />
+
+  <div
+    class="absolute text-one top-[40%] md:top-[35%] font-oswald space-y-10 mx-5 md:mx-10"
+  >
+    <p class="text-xl md:text-3xl">
+      Call us today for a no risk, no obligation cash offer on your home or
+      property at <a class="underline" href="tel:(970) 389-7126"
+        >(970) 389-7126</a
+      >.
+    </p>
+    <p class="text-4xl md:text-5xl font-extrabold drop-shadow-lg ">
+      LET'S WIN TOGETHER!
+    </p>
+    <a
+      href="mailto:tannerb@cashbuyersco.com"
+      class="block text-2xl md:text-3xl font-extrabold underline"
+      >tannerb@cashbuyersco.com</a
+    >
+  </div>
+</div>
