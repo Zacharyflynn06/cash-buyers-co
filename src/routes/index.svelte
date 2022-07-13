@@ -4,13 +4,13 @@
 </script>
 
 <header
-  class="bg-four flex justify-end text-one space-x-3 text-xs h-8 pr-3 font-oswald text-md"
+  class="bg-four flex justify-end text-one space-x-3 h-8 pr-3 font-oswald text-lg"
 >
   <a href="tel:970-389-7126" class="flex items-center hover:opacity-70">
     <div class="px-2">
-      <Phone className="h-3 w-3" />
+      <Phone className="h-4 w-4" />
     </div>
-    <span class="hidden sm:block">(970) 389-7126</span>
+    <span>(970) 389-7126</span>
   </a>
 
   <a
@@ -19,7 +19,7 @@
     title="email"
   >
     <div class="px-2">
-      <Mail className="h-3 w-3" />
+      <Mail className="h-4 w-4" />
     </div>
     <span class="hidden sm:block">tannerb@cashbuyersco.com</span>
   </a>
@@ -37,7 +37,7 @@
   />
 
   <div
-    class="absolute text-one top-[15%] md:top-1/3 mx-5 md:mx-10 font-oswald space-y-5 items-center"
+    class="absolute text-one top-[15%] md:top-1/3 font-oswald space-y-5 items-center mx-5 md:mx-10 lg:mx-20"
   >
     <h1 class="text-8xl font-extrabold ">Cash Buyers CO</h1>
     <p>
@@ -48,7 +48,7 @@
 </div>
 
 <div class="flex py-20 items-center justify-center bg-four">
-  <div class="space-y-5 mx-5 md:mx-10">
+  <div class="space-y-5 mx-5 md:mx-10 lg:mx-20">
     <h1 class="font-oswald font-bold text-2xl text-one">Our Mission</h1>
     <p class="text-one font-oswald text-lg ">
       At Cash Buyers Co, we strive to get our sellers the fastest and highest
@@ -85,7 +85,7 @@
   />
 
   <div
-    class="absolute text-one top-[40%] md:top-[35%] font-oswald space-y-10 mx-5 md:mx-10"
+    class="absolute text-one top-[40%] md:top-[35%] font-oswald space-y-10 mx-5 md:mx-10 lg:mx-20"
   >
     <p class="text-xl md:text-3xl">
       Call us today for a no risk, no obligation cash offer on your home or
