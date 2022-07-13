@@ -74,14 +74,14 @@
   </div>
 </div>
 
-<div class="h-96 sm:h-screen relative justify-center items-center ">
+<div class="h-screen relative justify-center items-center ">
   <img
     src="/images/house.jpg"
     alt=""
-    class="h-96 sm:h-screen object-cover md:w-screen"
+    class="h-screen object-cover md:w-screen"
   />
   <div
-    class="absolute top-0 left-0 text-center bg-black bg-opacity-50 h-96 sm:h-screen w-screen"
+    class="absolute top-0 left-0 text-center bg-black bg-opacity-50 h-screen w-screen"
   />
 
   <div
