@@ -26,11 +26,7 @@
 </header>
 
 <div class="relative justify-center items-center ">
-  <img
-    src="/images/house_2.jpeg"
-    alt=""
-    class="h-screen object-cover md:w-screen"
-  />
+  <img src="/house_2.jpeg" alt="" class="h-screen object-cover md:w-screen" />
 
   <div
     class="absolute top-0 left-0 text-center bg-black bg-opacity-25 h-screen w-screen"
@@ -75,11 +71,7 @@
 </div>
 
 <div class="h-screen relative justify-center items-center ">
-  <img
-    src="/images/house.jpg"
-    alt=""
-    class="h-screen object-cover md:w-screen"
-  />
+  <img src="/house.jpg" alt="" class="h-screen object-cover md:w-screen" />
   <div
     class="absolute top-0 left-0 text-center bg-black bg-opacity-50 h-screen w-screen"
   />
